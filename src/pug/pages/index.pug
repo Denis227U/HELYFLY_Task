@@ -1,0 +1,368 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title HELYFLY_Task
+    link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.8.1/css/all.css", integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf",crossorigin="anonymous")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous")
+    link(rel="stylesheet", href="css/main.css")
+    body
+      section.main
+        .container
+          .row
+            .col-12
+              header.main__header
+                .header__logo-wrapper
+                  img.header__logo.logo(src="img/pictures/logo.svg", alt="logo_header")
+                .d-lg-none
+                  a.header__link(href="#") Москва
+                  img.header__icon(src="img/icons/header-icon.svg", alt="header-icon")
+                .d-none.d-lg-flex
+                  .header__phone Телефон:
+                    span 8(800)-123-12-12
+          .row
+            .main-inner
+              .col-12.col-lg-7
+                h1.main__title.
+                  Эксклюзивная <span class="main__subtitle">фотосессия</span> при&nbsp;полете на вертолет
+                .main__price
+                  .price__info Стоимость:
+                    span.price__current.
+                        1500<i class="fas fa-ruble-sign"></i>
+                  .price__percent-wrapper
+                    i(class="fas fa-percent")
+                button.main__btn.popup__btn Забронировать место
+
+      
+      section.photosession
+        .container
+          .row
+            .col-12
+              .photosession__box-wrapper
+                h2.photosession__title.title.d-lg-none Фотосессия в вертолете
+                .photosession__img-wrapper
+                  img(src="img/pictures/photosession_big.jpg", alt="photosession-img")
+                  img.photosession-img__arrow(src="img/icons/photosession_arrow.svg", alt="arrow_icon")
+                  .photosession__youtube-wrapper
+                    iframe(width="100%",height="100%", src="https://www.youtube.com/embed/8OIXJs_gNXQ",frameborder="0",allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",allowfullscreen)
+                .photosession-inner
+                  h2.photosession__title.title.d-none.d-lg-block Фотосессия
+                    span в вертолете
+                  .photosession__text Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты! 
+                  .photosession__items-wrapper
+                    .photosession__item
+                      img.photosession-item__icon(src="img/icons/phs-icon_1.png", alt="phs-icon_1")
+                      .photosession-item__label 3 часа съемки
+                    .photosession__item
+                      img.photosession-item__icon(src="img/icons/phs-icon_2.png", alt="phs-icon_2")
+                      .photosession-item__label Русский
+                    .photosession__item
+                      img.photosession-item__icon(src="img/icons/phs-icon_3.png", alt="phs-icon_3")
+                      .photosession-item__label от 850$
+                    .photosession__item
+                      img.photosession-item__icon(src="img/icons/phs-icon_4.png", alt="phs-icon_4")
+                      .photosession-item__label Дубаи
+                    .photosession__item
+                      img.photosession-item__icon(src="img/icons/phs-icon_5.png", alt="phs-icon_5")
+                      .photosession-item__label Более 50 фотографий
+                  .photosession__rating.rating
+                    img.rating__icon(src="img/icons/phs-icon_6.png", alt="phs-icon_6")
+                    .rating-inner
+                      .rating__desc.
+                        Более <span class="d-lg-none">150</span><span class="d-none d-lg-inline-block">50</span>  отзывов с оценкой
+                      .rating__stars-wrapper
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+          .row
+            .col-12
+              h2.photosession__title-package.title Фотографии пакета
+              .photosession__package-wrapper
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_1.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_2.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_3.png", alt="package_img_1")
+                .package__img-wrapper.package__img-wrapper-last
+                  img.package_img(src="img/pictures/package_img_4.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_3.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_4.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_2.png", alt="package_img_1")
+                .package__img-wrapper.package__img-wrapper-last
+                  img.package_img(src="img/pictures/package_img_3.png", alt="package_img_1")
+              .photosession__package-wrapper.photosession__package-wrapper-close
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_1.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_2.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_3.png", alt="package_img_1")
+                .package__img-wrapper.package__img-wrapper-last
+                  img.package_img(src="img/pictures/package_img_4.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_3.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_4.png", alt="package_img_1")
+                .package__img-wrapper
+                  img.package_img(src="img/pictures/package_img_2.png", alt="package_img_1")
+                .package__img-wrapper.package__img-wrapper-last
+                  img.package_img(src="img/pictures/package_img_3.png", alt="package_img_1")
+              a(href="#").package__link.d-none.d-lg-block.
+                <i class="fas fa-chevron-down"></i> Показать все фото <i class="fas fa-chevron-down"></i>
+
+      
+
+      section.organizer
+        .container
+          .row
+            .col-12.organizer-inner
+              .box__author-wtapper
+                .icon__heart-wrapper
+                  i(class="fas fa-heart")
+                .organizer__photo-wrapper
+                  img(src="img/pictures/organizer.png", alt="organizer-photo")
+                .organizer__title Марина Иванова
+                .organizer__subtitle Фотограф
+                .organizer__info-wrapper
+                  a(href="#").organizer__info Показать больше 
+                    span информации о фотографе
+              .box__preview-wrapper
+                .organizer__subject Об организаторе:
+                .organizer__text.
+                  Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания клиентов, специализирующихся на совместном использовании и частных турах. <br><br>Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее решение, которое соответствует бюджету и планам клиента. Мы никогда не зависим от субпоставщиков и не свяжемся…
+                a.organizer__readMore(href="#") Читать еще 
+                  i(class="fas fa-chevron-down")
+                .organizer__subject Что я предоставлю:
+                .organizer__text.
+                  Встречу вас на машине после длительного перелёта. Качественный подбор места и локации для вашей съемки. При необходимости всегда возможно прерваться на обед/ужин. Более 50 фотографий на выходе с обработкой и замечательные впечатления о Дубае !
+                a.organizer__readMore(href="#") Читать еще
+                  i(class="fas fa-chevron-down fa-chevron-down-bot")
+
+      
+      section.shooting
+        .container
+          .row
+            .col-12.col-lg-9
+              h2.shooting__title.title Доступная съемка в ближайщее&nbsp;время
+              .shooting-inner
+                .shooting__subtitle Пятница, 14 сентября
+                  img.d-none.d-lg-inline-block(src="img/icons/shooting_calc.svg", alt="calc_icon")
+                .shooting__item
+                  .shooting__item-inner
+                    .shooting-item__time 15:00 - 18:00
+                    .shooting-item__price 850$
+                    .shooting-item__quantity Осталось — 1 место
+                  button.shooting-item__btn.popup__btn Выбрать
+                .shooting__item
+                  .shooting__item-inner
+                    .shooting-item__time 19:00 - 22:00
+                    .shooting-item__price 850$
+                    .shooting-item__quantity Осталось — 1 место
+                  button.shooting-item__btn.popup__btn Выбрать
+                .shooting__rating.rating
+                  img.rating__icon(src="img/icons/phs-icon_6.png", alt="phs-icon_6")
+                  .rating-inner
+                    .rating__desc.
+                        Более <span class="d-lg-none">150</span><span class="d-none d-lg-inline-block">50</span>  отзывов с оценкой
+                    .rating__stars-wrapper
+                      i(class="fas fa-star")
+                      i(class="fas fa-star")
+                      i(class="fas fa-star")
+                      i(class="fas fa-star")
+                      i(class="fas fa-star")
+      
+
+      section.map
+        .container-fluid
+          .row
+            .map-inner
+              script(type="text/javascript", charset="utf-8", async, src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2a7b6678e967fe9fba49472f6b8f40c64824c7772f4cdc7b5922de2d42cfa1ea&amp;width=100%25&amp;height=510&amp;lang=ru_RU&amp;scroll=false")
+              .map__info-wrapper
+                .map__slider-wrapper
+                  a.portfolio-btn.prev.d-lg-none(href="#", id="arrow-left")
+                    i(class="fas fa-chevron-left")
+                  a.portfolio-btn.next.d-lg-none(href="#", id="arrow-right")
+                    i(class="fas fa-chevron-right")
+                  .slider__content-wrapper
+                    .slider__content
+                      .slider__item.slider__item-active
+                        img.slider__icon(src="img/icons/map_icon_1.png", alt="map_icon_1")
+                        .slider__text-wrapper
+                          .slider__text Где встречаемся?
+                          .slider__desc Москва
+                      .slider__item
+                        img.slider__icon(src="img/icons/map_icon_2.png", alt="map_icon_2")
+                        .slider__text-wrapper
+                          .slider__text Где встречаемся?
+                          .slider__desc Москва
+                      .slider__item
+                        img.slider__icon(src="img/icons/map_icon_3.png", alt="map_icon_3")
+                        .slider__text-wrapper
+                          .slider__text Где встречаемся?
+                          .slider__desc Москва
+                  ul.map__dots.d-lg-none
+                    li.dot.dot-active
+                    li.dot
+                    li.dot
+                .map__author
+                  .author__photo-wrapper
+                    img(src="img/pictures/organizer.png", alt="organizer-photo")
+                  .author-inner
+                    .author__name Мария Иванова
+                    .author__desc Фотограф
+                    .author__info-wrapper
+                      a(href="#").organizer__info.organizer__info-left Показать больше 
+                        span информации о фотографе
+
+
+      section.reviews
+        .container
+            .row
+              .col-12.col-lg-7
+                h2.reviews__title.title Отзывы
+                .reviews__item
+                  .reviews__item-inner
+                    .reviews-item__photo-wrapper
+                      img(src="img/pictures/reviews_1.png", alt="reviews_photo")
+                    .reviews-item__info
+                      .reviews-item__name Валерия Антонова
+                      .reviews-item__desc Арт-директор
+                      .rating__stars-wrapper.reviews__stars
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                  .reviews-item__title
+                    i(class="fas fa-check")
+                    span Супер! Я бы заказала съемку снова!
+                  .reviews-item__text Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
+                  .reviews-item__date 27 Апреля, 2019г.
+                .reviews__item
+                  .reviews__item-inner
+                    .reviews-item__photo-wrapper
+                      img(src="img/pictures/reviews_2.png", alt="reviews_photo")
+                    .reviews-item__info
+                      .reviews-item__name Виталий Петров
+                      .reviews-item__desc Фотограф
+                      .rating__stars-wrapper.reviews__stars
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                  .reviews-item__title
+                    i(class="fas fa-check")
+                    span Супер! Я бы заказал съемку снова!
+                  .reviews-item__text Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
+                  .reviews-item__date 19 Апреля, 2019г.
+                .reviews__item.reviews__item-close
+                  .reviews__item-inner
+                    .reviews-item__photo-wrapper
+                      img(src="img/pictures/reviews_2.png", alt="reviews_photo")
+                    .reviews-item__info
+                      .reviews-item__name Виталий Петров
+                      .reviews-item__desc Фотограф
+                      .rating__stars-wrapper.reviews__stars
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                        i(class="fas fa-star")
+                  .reviews-item__title
+                    i(class="fas fa-check")
+                    span Супер! Я бы заказал съемку снова!
+                  .reviews-item__text Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
+                  .reviews-item__date 19 Апреля, 2019г.
+              .col-12
+                a(href="#").reviews__more Показать Все 
+                  span (134)
+                  i(class="fas fa-chevron-right")
+
+
+      footer
+        .container
+          .row
+            .col-12
+              .footer-inner-top
+                .footer__logo-wrapper
+                  img.header__logo.logo(src="img/pictures/logo.svg", alt="logo_header")
+                .social-wrapper
+                  a(href="#")
+                    img(src="img/icons/vk.svg", alt="vk_icon").social__icon
+                  a(href="#")
+                    img(src="img/icons/Facebook.svg", alt="Facebook_icon").social__icon
+                  a(href="#")
+                    img(src="img/icons/Instragram.svg", alt="Instragram_icon").social__icon
+                  .lang-wrapper.d-none.d-lg-inline-block RU
+                    i(class="fas fa-chevron-down")
+              .footer-inner-bot
+                .pay-wrapper
+                  a(href="#")
+                    i(class="fab fa-cc-mastercard")
+                  a(href="#")
+                    i(class="fab fa-cc-visa")
+                  a.d-lg-none(href="#")
+                    i(class="fab fa-cc-paypal")
+                .lang-wrapper.d-lg-none RU
+                  i(class="fas fa-chevron-down")
+        .container-fluid
+          .row.footer__desc-wrapper
+            .footer__desc Тех. поддержка: 8(800)700-00-00
+              span © 2018 HELYFLY. All Rights Reserved.
+
+      
+      .popup
+        .popup__content
+          button(type="button").popup__close
+            i(class="fas fa-times")
+          .main-form
+            h3.main-form__title Бронирование
+            form(name="user_form")
+              .form__input-wrapper
+                label(for="form_date") Дата
+                  span *
+                input#form_date(type="date", name="user_date", value="14.09.2019", required)
+              .form__input-wrapper
+                label(for="form_email") Email
+                  span *
+                input#form_email(type="email", name="user_email", placeholder="Электронная почта", required)
+              .form__input-wrapper
+                label(for="form_name") Имя
+                  span *
+                input#form_name(type="text", name="user_name", value="Иван", required)
+              .form__input-wrapper
+                label(for="form_surname") Фамилия
+                  span *
+                input#form_surname(type="text", name="user_surname", value="Громов", required)
+              .form__input-wrapper
+                label(for="form_phone") Телефон
+                  span *
+                input#form_phone(type="tel", name="user_phone", placeholder="+7 (905) 184-81-40", required)
+              .popup-card-wrapper
+                label Данные карты
+                  span *
+                input.popup__card(type="text", name="card_number", placeholder="Номер карты", maxlength="16", required)
+                .poppup-card-inner
+                  input.popup__card(type="text", name="card_time", placeholder="Срок действия", maxlength="4", required)
+                  input.popup__card(type="text", name="card_cvv", placeholder="CVV", maxlength="3", required)
+              .form__check-wrapper
+                input(type="checkbox",id="desc_check", required, checked)
+                label(for="desc_check" class="form__check_text") Я согласен с пользовательским соглашением и публичной офертой
+              .form__btn-wrapper
+                button.form__btn(type="submit") Забронировать
+
+
+              
+
+
+
+        script(src="js/script.js")
